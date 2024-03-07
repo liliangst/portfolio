@@ -1,11 +1,28 @@
 import Vapor
+import Plot
 
 func routes(_ app: Application) throws {
-    app.get { req async throws in
-        try await req.view.render("index", ["title": "Hello Vapor!"])
+    app.get { req -> EventLoopFuture<HTML> in
+        return Base().with {
+            IndexPage()
+        }.encodeResponse(for: req)
     }
-
-    app.get("hello") { req async -> String in
-        "Hello, world!"
+    
+    app.get("projects") { req -> EventLoopFuture<HTML> in
+        return Base().with {
+            ProjectsPage()
+        }.encodeResponse(for: req)
+    }
+    
+    app.get("cv") { req -> EventLoopFuture<HTML> in
+        return Base().with {
+            CvPage()
+        }.encodeResponse(for: req)
+    }
+    
+    app.get("contact") { req -> EventLoopFuture<HTML> in
+        return Base().with {
+            ContactPage()
+        }.encodeResponse(for: req)
     }
 }
