@@ -15,10 +15,12 @@ class Base {
             .head(
                 .meta(.charset(.utf8)),
                 .title("Portfolio"),
-                .stylesheet("/styles/background.css")
+                .stylesheet("/styles/background.css"),
+                .stylesheet("/styles/navigation.css")
             ),
             .body({
                 Div {
+                    NavigationBar()
                     content()
                 }.class("wrapper")
             })

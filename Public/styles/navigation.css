@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Manrope");
+
+.menu {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.75rem;
+    box-sizing: border-box;
+    padding: 0.25rem;
+    width: 400px;
+    
+    background: #F7BEA9;
+    box-shadow: 0 0px 0px 0 rgba(128, 112, 148, 0.37);
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+  }
+  
+  .menu .element-wrapper {
+    flex: 1 1 auto;
+    text-align: center;
+    margin: 0.25rem
+  }
+  
+  .menu .element-wrapper .element {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: .5rem 0;
+    transition: all .15s ease-in-out;
+  }
+  
+  .selected>.element {
+    background-color: #EF98A7;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+  }
+
+  .not-selected>.element:hover {
+    background-color: rgba(239, 152, 167, 0.75);
+  }
+
+  .element {
+    color: #FCFCFB;
+    text-decoration: none;
+    font-family: 'Manrope', regular;
+    font-weight: 600;
+    font-size: 15;
+  }
