@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CSV
 
 class ProjectManager {
     static let shared = ProjectManager()
