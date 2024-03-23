@@ -4,15 +4,16 @@ import Plot
 func routes(_ app: Application) throws {
     app.get { req -> EventLoopFuture<HTML> in
         return Base().with {
-            IndexPage()
+            HomePage()
         }
         .environmentValue(.home, key: .selectedPageID)
         .encodeResponse(for: req)
     }
     
     app.get("projects") { req -> EventLoopFuture<HTML> in
+        let projects = ProjectManager.shared.fetch()
         return Base().with {
-            ProjectsPage()
+            ProjectsPage(projects: projects)
         }
         .environmentValue(.projects, key: .selectedPageID)
         .encodeResponse(for: req)

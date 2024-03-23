@@ -16,7 +16,11 @@ class Base {
                 .meta(.charset(.utf8)),
                 .title("Portfolio"),
                 .stylesheet("/styles/background.css"),
-                .stylesheet("/styles/navigation.css")
+                .stylesheet("/styles/navigation.css"),
+                .stylesheet("/styles/home.css"),
+                .stylesheet("/styles/projects.css"),
+                .stylesheet("/styles/cv.css"),
+                .stylesheet("/styles/contact.css")
             ),
             .body({
                 Div {

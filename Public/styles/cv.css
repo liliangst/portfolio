@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Prompt:600:800");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+#cv-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#cv-title {
+    font-family: 'Prompt';
+    font-weight: 800;
+    font-size: 30px;
+    border-bottom: 3px solid #EBD6FF;
+    height: 33px;
+    margin-top: 50px;
+}
+
+#cv-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#cv-education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cv-section-title {
+    font-family: 'Prompt';
+    font-weight: 600;
+    margin: 30px 0 5px 0;
+}
+
+.cv-list {
+    list-style: none;
+    margin: 0;
+}
+
+.cv-list-element {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px
+}
+
+.element-title {
+    font-weight: 700;
+    margin: 10px;
+}
+
+.element-place {
+    margin: 0 0 5px 0;
+}
+
+.element-dates {
+    margin: 0 0 5px 0;
+}
+
+.element-description {
+    width: 50vw;
+    text-align: center;
+}
+
+#cv-education>.cv-list>.cv-list-element>.element-description {
+    display: none;
+}

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Prompt:600:800");
+
+#home-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home-title {
+    font-family: 'Prompt';
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 5px;
+    height: 20px;
+    border-bottom: 3px solid #EBD6FF;
+}
+
+#home-subtitle {
+    font-family: 'Prompt';
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0;
+}
+
+#home-image {
+    width: 50vh;
+}
+
+#home-description {
+    font-family: 'Prompt';
+    font-weight: 800;
+    width: 280px;
+    text-align: center;
+}
+
+#home-desc-ht1 {
+    color: #F7BEA9;
+}
+
+#home-desc-ht2 {
+    color: #EF98A7;
+}

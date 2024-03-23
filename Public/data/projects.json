@@ -1,0 +1,90 @@
+[
+    {
+      "id": 0,
+      "title": "WorkoutBuilder",
+      "image": "workoutbuilder.png",
+      "link": "https://github.com/liliangst/WorkoutBuilder ",
+      "description": "Application pour gérer ses séances de sport tout en écoutant de la musique",
+      "stack": [
+        "UIKit/SwiftUI",
+        "MVC",
+        "Tests Unitaires",
+        "CI/CD",
+        "Realm",
+        "Spotify SDK",
+        "Keychain",
+        "Kingfisher",
+        "Firebase SDK"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Portfolio",
+      "image": "portfolio.png",
+      "link": "https://github.com/liliangst/portfolio",
+      "description": "Site créé avec Vapor afin afficher mes différents projets",
+      "stack": [
+        "Vapor",
+        "Plot",
+        "Swift",
+        "HTML",
+        "CSS",
+        "AWS",
+        "Nginx",
+        "Supervisor"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Reciplease",
+      "image": "reciplease.png",
+      "link": "https://github.com/liliangst/Reciplease",
+      "description": "Application qui donne des recettes en fonctions des ingrédients disponibles",
+      "stack": [
+        "UIKit",
+        "MVC",
+        "Tests Unitaires",
+        "Alamofire",
+        "Kingfisher",
+        "CoreData",
+        "API Edamam"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "LeBaluchon",
+      "image": "lebaluchon.png",
+      "link": "https://github.com/liliangst/LeBaluchon",
+      "description": "Application de voyage 3 en 1 (Conversion, Traduction, Météo)",
+      "stack": [
+        "UIKit",
+        "MVC",
+        "Tests Unitaires",
+        "Fixer API",
+        "API GoogleTranslate",
+        "API OpenWeather"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "CountOnMe",
+      "image": "countonme.png",
+      "link": "https://github.com/liliangst/CountOnMe",
+      "description": "Application calculatrice",
+      "stack": [
+        "UIKit",
+        "MVC",
+        "Tests Unitaires"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Instagrid",
+      "image": "instagrid.png",
+      "link": "https://github.com/liliangst/OC-Projet4",
+      "description": "Application de montage photos",
+      "stack": [
+        "UIKit"
+      ]
+    }
+  ]

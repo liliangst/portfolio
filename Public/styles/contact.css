@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Prompt:800");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600");
+
+#contact-wrapper .contact-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#contact-title {
+    text-align: center;
+    font-family: 'Prompt';
+    font-weight: 800;
+    border-bottom: 3px solid #EBD6FF;
+    margin: 50px 125px 75px;
+    font-size: 30px;
+    height: 33px;
+}
+
+.contact-image {
+    height: 25px;
+}
+
+.contact-content {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.contact-element {
+    padding: 2em
+}
+
+.contact-link {
+    cursor: pointer;
+}

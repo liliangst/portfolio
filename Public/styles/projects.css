@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Prompt:800");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+/* Project page */
+
+#projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#projects-page-title {
+    text-align: center;
+    font-family: 'Prompt';
+    font-weight: 800;
+    font-size: 30px;
+    border-bottom: 3px solid #EBD6FF;
+    height: 33px;
+    margin-top: 50px;
+}
+
+#projects-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+#projects-item {
+    width: 500px;
+}
+
+/* Project card */
+
+.project-wrapper {
+    flex: 1 0 35%;
+    background-color: #EF98A7;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.project-left-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 45px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.project-right-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.project-mockup {
+    width: 150px;
+}
+
+.project-button {
+    margin-top: 15px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #F7BEA9;
+    border-radius: 30%;
+    background: none;
+    padding: 5px;
+}
+
+.project-button:hover {
+    border-radius: 30%;
+    background: #F7BEA9;
+}
+
+.project-button:active {
+  transform: scale(0.95);
+}
+
+.project-button-image {
+    width: 30px;
+}
+
+.project-title {
+    font-family: 'Prompt';
+    font-style: italic;
+    font-weight: 800;
+}
+
+.project-description {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.project-stack-title {
+    font-family: 'Prompt';
+    font-style: italic;
+    font-weight: 800;
+}
+
+.project-stack-list {
+    list-style-type: disc;
+    display: flex;
+    flex-flow: column wrap; 
+}
+
+.project-stack-item {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
